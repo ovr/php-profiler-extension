@@ -1624,7 +1624,7 @@ PHP_MINFO_FUNCTION(tideways)
  * ***************************************************
  */
 
-static void hp_register_constants(INIT_FUNC_ARGS)
+inline static void hp_register_constants(INIT_FUNC_ARGS)
 {
 	REGISTER_LONG_CONSTANT("TIDEWAYS_FLAGS_CPU", TIDEWAYS_FLAGS_CPU, CONST_CS | CONST_PERSISTENT);
 	REGISTER_LONG_CONSTANT("TIDEWAYS_FLAGS_MEMORY", TIDEWAYS_FLAGS_MEMORY, CONST_CS | CONST_PERSISTENT);
